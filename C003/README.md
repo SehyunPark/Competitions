@@ -1,4 +1,4 @@
-# Child Mind Institute - Detect Sleep States
+# [Child Mind Institute - Detect Sleep States](https://www.kaggle.com/c/child-mind-institute-detect-sleep-states)
 'Detect sleep onset and wake from wrist-worn accelerometer data'
 
 ## Overview
