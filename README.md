@@ -1,7 +1,7 @@
 # Competitions
 Data Science related Competitions
 
-Let's have fun! Life is full of joy and happiness and DATA ⬆️
+Life is filled with Happiness and DATA ⬆️
 
 | No. | Name | Date | Result | Topic | Skills(Summary) | Link |
 | :--------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
