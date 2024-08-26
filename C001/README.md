@@ -12,11 +12,35 @@
 | Contest Result | 일반부 우수상(Second Prize)[▶️](https://github.com/SehyunPark/Projects/blob/main/C001/Award_Certificate.png) <br> Leaderboard[▶️](http://sealab.kr/contest/awards) |
 | Media Coverage | News Coverage[▶️](https://www.sedaily.com/NewsView/26F0IMRJAK) <br> Contest Review - YouTube[▶️](https://www.youtube.com/watch?v=GW1l5pFcMxI) |
 
-<h1> Western UIG Sv Prediction </h1>
+</div>
+
+# 1. 연구주제 및 가설 설정
+
+## 1-1. 연구주제
+
+<div align="center">
+  
+<b> "UIG 심층수송량 분석 및 예측을 통한 기후온난화 심각성 재고" </b>
 
 </div>
 
-## Topic & Hypothesis
+## 1-2. 연구목적
+<div align="center">
+<img width="600" height = "600" alt="image" src="https://github.com/user-attachments/assets/68149543-515a-47ff-ae67-44fe99475a26">
+</div>
+
+- 해양은 기상과 밀접한 상호작용을 지닌다. 특히 상단 그림과 같이 빨간 동그라미에 속하는 '동해(East Sea)'는 '대양의 미래 모습을 예측할 수 있는 자연실험실'로, 다른 인근 바다에 비해 상대적으로 순환속도가 빠르다. 또한, '동해(East Sea)'는 북한한류와 동한난류가 만나는 지점
+
+
+
+# 2. 데이터 분석
+
+# 3. 분석 결과
+
+# 4. 결론 및 참고문헌
+
+
+
 
 <div align="center">
 
@@ -58,6 +82,11 @@
 
 ## Data Analysis
 
+### 1. 연구주제 및 가설설정
+
+### 2. 데이터 분석
+
+### 3. 분석결과
 
 
 
