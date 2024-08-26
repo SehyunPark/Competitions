@@ -35,28 +35,31 @@
 </div>
 
 - 해저지형 가장자리에 따른 반시계방향 순환은 상단 왼쪽 그림과 같이 울릉도에서 가까운 곳(U1, U2 부근)은 북쪽에서 남쪽으로 흘러 나오고, 독도에 가까운 곳(U4, U5 부근)은 남쪽에서 북쪽으로 흘러 나간다.
-- 상단 오른쪽 그림은 남쪽에서 북쪽을 바라본 방향에서의 그림으로, Western UIG(U1, U2, U3)는 북쪽에서 남쪽으로 흐르는 방향 우세, Eastern UIG(U4~U5)는 남쪽에서 북쪽으로 흐르는 방향이 우세한다.
-
+- 상단 오른쪽 그림은 남쪽에서 북쪽을 바라본 방향에서의 그림으로, Western UIG(U1, U2, U3)는 북쪽에서 남쪽으로 흐르는 방향 우세, Eastern UIG(U4~U5)는 남쪽에서 북쪽으로 흐르는 방향이 우세하다.
 
 ## Data Explanation
 
+- 지정 DataSet
 
+  - 자료 1: 2002년 ~ 2004년 정점 U1 ~ U5 까지의 데이터
+    - Sheet 1: Longitude 130.9302143인 Depth 0부터(상단 오른쪽 그림 왼쪽 울릉도 부근) Longitude 131.87인 Depth 0(상단 오른쪽 그림 오른쪽 독도 부근)까지 Longitude에 따른 Depth 자료
+    - Sheet 2: U1 ~ U5 지점 각각의 Longitude와 Latitude
+    - Sheet 3 ~ 11: U1a, U1b, U2a, U2b, U3a, U3b, U4a, U4b, U5a 각 지점에의 2002년 ~ 2004년 시간별 지정위치 유속(Ur Current Speed) (단위 cm/s)
+  
+  - 자료 2: 1996년 ~ 2020년 정점 U3에서의 데이터
+    - U3의 수심 1800m에서의 유속 데이터(1996년 11월 4일 22시 ~ 2020년 11월 11일 7시)
 
+- 외부 DataSet
+  - 자료 1: 1996년 ~ 2020년 정점 U3(EC1)의 깊이별 수온 데이터(SEANOE) ([Source](https://www.seanoe.org/data/00677/78916/))
+  - 자료 2: 2012년 ~ 2020년 울릉도 조위관측소
 
-
-
-
-
-
-
-
-
-
-
-
-
+    - 수온 OpenAPI(바다누리해양정보서비스) ([Source](http://www.khoa.go.kr/oceangrid/khoa/takepart/openapi/openApiObsTempTideRealDataInfo.do))
+    - 기온 OpenAPI(바다누리해양정보서비스) ([Source](http://www.khoa.go.kr/oceangrid/khoa/takepart/openapi/openApiObsAtempTideRealDataInfo.do))
 
 ## Data Analysis
+
+
+
 
 ## Results
 
