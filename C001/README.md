@@ -131,6 +131,10 @@
 
 # 4. 결론 및 참고문헌
 
+## 4-1. 결론
+
+## 4-2. 참고문헌 및 참고한 내용
+
 ✅ "Deep flow and transport through the UIG in Southwestern East Sea"
 
 - 수송량 계산 과정 참고
