@@ -67,7 +67,7 @@
 
 <div align="center">
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/dc84f63f-76bf-40c3-b9b5-160d01f4ebe0">
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/dc84f63f-76bf-40c3-b9b5-160d01f4ebe0">
 
 </div>
 
@@ -110,6 +110,55 @@
 # 2. 데이터 분석
 
 ## 2-1. Western UIG 심층 수송량 계산
+
+✅ 2002년부터 2004년까지의 U1, U2, U3 유속 자료를 활용해서 수심 1500m 아래 western UIG 수송량 계산(Eastern UIG가 아닌 Western UIG를 구하므로 U1, U2, U3 유속 자료 활용)
+
+<br>
+
+✅ 수송량(1Sv = 10^6m^3/s) = 각 계류 위치의 유속값(m/s) x 해저 지형의 단면적(m^2)
+
+<br>
+
+✅ ① 각 계류 위치의 유속값(m/s) 구하기 
+- Time Column과 U1a ~ U3b Ur Speed(cm/s) Columns를 모두 합한다. (merged)
+- Ur Speed Columns의 유속 단위가 cm/s이므로 m/s로 변환한다. (0.01 곱하기) / NaN 들어있는 행 모두 drop 처리
+
+<br>
+
+✅ ② U1 부터 U3 지점까지의 각 해저 지형의 단면적(m^2) 구하기
+- 하단 그림에서 삼각형 ①, 그리고 3개의 직사각형 ② / ③ / ④ 각각의 단면적을 구한다.
+
+<div align="center">
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/2a3e350b-82b6-41d6-a4db-46ccbb56d411">
+</div>
+
+- U1부터 U3 각 지점에의 Longitude(°E)와 Latitude(°N)를 구한다.
+  - Depth(meter)에 따른 Longitude(°E)를 구한다. (하단 좌측 그림 시각화)
+  - Longitude에 따른 Latitude(°N)를 구한다. (하단 우측 그림 시각화)
+  - 하단 우측 그림을 통해 Longitude와 Latitude는 직선 형태를 보인다 가정. 1500m일 때의 Longitude를 대입해 1500m일 때의 Latitude를 산출한다.
+  
+<div align="center">
+  
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/bfc5e590-fc97-4fff-959f-2ede5337e31c">
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/8e7bc0d1-302d-4b38-a278-e4f9c82dc455">
+
+</div>
+
+- 각 지점 사이의 거리(d1500_u1, u1_u2, u2_u3, u3_u4)를 상단에서 구한 각 지점에의 (Longitude, Latitude)를 haversin() 함수에 대입해 구한다.
+
+- U1 지점은 삼각형 ① + 직사각형 ② / U2 지점은 직사각형 ③ / U3 지점은 직사각형 ④를 단면적으로 가정, 위에서 구한 거리와 depth로 구한다.
+
+✅ "① 각 계류 위치의 유속값(m/s)" x "② U1 부터 U3 지점까지의 각 해저 지형의 단면적(m^2)"으로 U1a Sv, U1b Sv, U2a Sv, U2b Sv, U3a Sv, U3b Sv를 각각 구한 뒤 평균을 내어 Total Transport(Sv)를 Time 별로 최종 산출(아래 결과 dataframe)
+
+<div align="center">
+
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/a22baaec-2eec-4f19-8448-575d3347e55e">
+
+</div>
+
+
+
+
 
 
 ## 2-2. 유속과 Western UIG 심층 수송량과의 상관관계 산출
