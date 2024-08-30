@@ -10,7 +10,7 @@
 | Team Name | HyunDuo |
 | Contest Submissions | Code(python)[▶️](https://github.com/SehyunPark/Projects/blob/main/C001/Submission_Code(Python).ipynb) <br> Code(python) Packages List(Version included)[▶️](https://github.com/SehyunPark/Projects/blob/main/C001/Submission_Packages_List.txt) <br> Presentation Slides[▶️](https://github.com/SehyunPark/Projects) |
 | Contest Result | 일반부 우수상(Second Prize)[▶️](https://github.com/SehyunPark/Projects/blob/main/C001/Award_Certificate.png) <br> Leaderboard[▶️](http://sealab.kr/contest/awards) |
-| Media Coverage | News Coverage[▶️](https://www.sedaily.com/NewsView/26F0IMRJAK) <br> Contest Review - YouTube[▶️](https://www.youtube.com/watch?v=GW1l5pFcMxI) |
+| Media Coverage | News Coverage[▶️](https://www.sedaily.com/NewsView/26F0IMRJAK) |
 
 </div>
 
