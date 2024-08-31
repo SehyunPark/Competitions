@@ -13,7 +13,7 @@
 | Media Coverage | News Coverage[▶️](https://www.sedaily.com/NewsView/26F0IMRJAK) |
 
 </div>
-
+<!--
 # 1. 연구주제 및 가설 설정
 
 ## 1-1. 연구주제 및 연구목적
@@ -156,12 +156,9 @@
 
 </div>
 
+## 2-2. U3 지점 수심 1800m에서의 유속과 Western UIG 심층 수송량과의 상관관계 산출
 
 
-
-
-
-## 2-2. 유속과 Western UIG 심층 수송량과의 상관관계 산출
 
 ## 2-3. Western UIG 심층 수송량 장기 추세 산출
 
@@ -217,7 +214,7 @@
 
 - 북한한류계수 남하경로 참고
 - 북한한류 남하경향성 참고
-
+-->
 
 
 
