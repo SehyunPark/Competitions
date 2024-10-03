@@ -1,5 +1,5 @@
 # Competitions
-Data Science related Competitions
+Data Science & Programming & Ideas Competitions
 
 Life is filled with Happiness and DATA ⬆️
 
